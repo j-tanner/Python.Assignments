@@ -1,0 +1,5 @@
+filename = input("Enter file name: ")
+filehandle = open(filename)
+fileread = filehandle.read()
+fileread.rstrip()
+print(fileread.upper())
